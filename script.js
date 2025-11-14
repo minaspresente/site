@@ -43,6 +43,17 @@ const produtos = [
       "img/produtos/canecas/cn04/cn0403.png",
     ],
   },
+    {
+    nome: "Caneca personalizada com Nome e Frase",
+    codigo: "cn05",
+    categoria: "canecas",
+    preco: "$40,00",
+    imagens: [
+      "img/produtos/canecas/cn05/cn0501.png",
+      "img/produtos/canecas/cn05/cn0502.png",
+      "img/produtos/canecas/cn05/cn0503.png",
+    ],
+  },
 ];
 
 const container = document.getElementById("produtosContainer");
