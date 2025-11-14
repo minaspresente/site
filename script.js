@@ -2,22 +2,45 @@ const produtos = [
     {
     nome: "Caneca personalizada com Nome e Frase",
     codigo: "cn01",
-    categoria: "caneca",
+    categoria: "canecas",
     preco: "$40,00",
     imagens: [
-      "img/produtos/canecas/cn0101.png",
-      "img/produtos/canecas/cn0102.png",
+      "img/produtos/canecas/cn01/cn0101.png",
+      "img/produtos/canecas/cn01/cn0102.png",
+      "img/produtos/canecas/cn01/cn0103.png",
     ],
   },
-
-    {
-    nome: "Caneca personalizada com Nome e Frase",
-    codigo: "sq01",
-    categoria: "squeez",
+     {
+    nome: "Caneca personalizada com Nome e Foto",
+    codigo: "cn02",
+    categoria: "canecas",
     preco: "$40,00",
     imagens: [
-      "img/produtos/canecas/cn0101.png",
-      "img/produtos/canecas/cn0102.png",
+      "img/produtos/canecas/cn02/cn0201.png",
+      "img/produtos/canecas/cn02/cn0202.png",
+      "img/produtos/canecas/cn02/cn0203.png",
+    ],
+  },
+      {
+    nome: "Caneca personalizada com Nome",
+    codigo: "cn03",
+    categoria: "canecas",
+    preco: "$40,00",
+    imagens: [
+      "img/produtos/canecas/cn03/cn0301.png",
+      "img/produtos/canecas/cn03/cn0302.png",
+      "img/produtos/canecas/cn03/cn0303.png",
+    ],
+  },
+     {
+    nome: "Caneca personalizada com Nome e Foto",
+    codigo: "cn04",
+    categoria: "canecas",
+    preco: "$40,00",
+    imagens: [
+      "img/produtos/canecas/cn04/cn0401.png",
+      "img/produtos/canecas/cn04/cn0402.png",
+      "img/produtos/canecas/cn04/cn0403.png",
     ],
   },
 ];
