@@ -54,6 +54,28 @@ const produtos = [
       "img/produtos/canecas/cn05/cn0503.png",
     ],
   },
+   {
+    nome: "Caneca personalizada com Foto e Mensagem",
+    codigo: "cn06",
+    categoria: "canecas",
+    preco: "$40,00",
+    imagens: [
+      "img/produtos/canecas/cn06/cn0601.png",
+      "img/produtos/canecas/cn06/cn0602.png",
+      "img/produtos/canecas/cn06/cn0603.png",
+    ],
+  },
+  {
+    nome: "Caneca personalizada com Foto e Palavras",
+    codigo: "cn07",
+    categoria: "canecas",
+    preco: "$40,00",
+    imagens: [
+      "img/produtos/canecas/cn07/cn0701.png",
+      "img/produtos/canecas/cn07/cn0702.png",
+      "img/produtos/canecas/cn07/cn0703.png",
+    ],
+  },
 ];
 
 const container = document.getElementById("produtosContainer");
