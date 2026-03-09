@@ -1,3 +1,6 @@
+const valores = {
+  canecas: "$49,99"
+}
 const produtos = [
     {
     nome: "Caneca personalizada com Nome e Frase",
@@ -161,7 +164,7 @@ function renderizarProdutos(filtroSelecionado) {
     info.classList.add("card-info");
     info.innerHTML = `
       <h3>${p.nome}</h3>
-      <p>${p.preco}</p>
+      <p>${valores[p.categoria]}</p>
       <a class="btn-comprar" href="https://wa.me/553172449377?text=Olá! Quero comprar essa ${encodeURIComponent(p.categoria)} modelo ${encodeURIComponent(p.codigo)}!" target="_blank">Comprar no WhatsApp</a>`;
     card.appendChild(carousel);
     card.appendChild(dotsContainer);
